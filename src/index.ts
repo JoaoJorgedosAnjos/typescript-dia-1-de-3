@@ -29,10 +29,29 @@
 // const combineName = userInput("Apple", "Avocado")
 // console.log(combineName);
 
-//LITERAL TYPE
+// //LITERAL TYPE
 
-let productPrice: 10 | 20 | 30
-let productSiza: "S" | "M" | "L"
+// let productPrice: 10 | 20 | 30
+// let productSiza: "S" | "M" | "L"
 
-productPrice = 20
-productSiza = "M"
+// productPrice = 20
+// productSiza = "M"
+
+type User = {
+    firstName: string;
+    age: number
+}
+
+type JobRole = {
+    id: number
+    role: string
+}
+
+type employee = User & JobRole
+
+const employee1: employee = {
+    firstName: "João",
+    age: 28,
+    id: 23,
+    role: "Admin"
+}
