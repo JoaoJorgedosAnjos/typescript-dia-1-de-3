@@ -56,9 +56,17 @@
 //     role: "Admin"
 // }
 
-// Day 3 - Exercise 1
+// // Day 3 - Exercise 1
 
-let pi = 3.14159;
-let tau = pi * 2;
+// let pi = 3.14159;
+// let tau = pi * 2;
 
-console.log(`${tau} is ${pi} times two.`);
+// console.log(`${tau} is ${pi} times two.`);
+
+// Day 3 - Exercise 2 
+// pie é tipo any, transformar em tipo string
+
+let pie:string
+pie = 'blueberry'
+
+console.log(`I like to eat ${pie}-flavored pie.`)
