@@ -37,21 +37,28 @@
 // productPrice = 20
 // productSiza = "M"
 
-type User = {
-    firstName: string;
-    age: number
-}
+// type User = {
+//     firstName: string;
+//     age: number
+// }
 
-type JobRole = {
-    id: number
-    role: string
-}
+// type JobRole = {
+//     id: number
+//     role: string
+// }
 
-type employee = User & JobRole
+// type employee = User & JobRole
 
-const employee1: employee = {
-    firstName: "João",
-    age: 28,
-    id: 23,
-    role: "Admin"
-}
+// const employee1: employee = {
+//     firstName: "João",
+//     age: 28,
+//     id: 23,
+//     role: "Admin"
+// }
+
+// Day 3 - Exercise 1
+
+let pi = 3.14159;
+let tau = pi * 2;
+
+console.log(`${tau} is ${pi} times two.`);
